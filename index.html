@@ -68,7 +68,7 @@
           <h1 class="hero-section__title">
             EFFECTIVE SOLUTIONS FOR <br />YOUR BUSINESS
           </h1>
-          <button class="hero-section__service" type="button">
+          <button data-modal-open class="hero-section__service" type="button">
             Request our service
           </button>
         </div>
@@ -435,5 +435,21 @@
         </div>
       </div>
     </footer>
+
+    <!-- Marcaj MODAL cu backdrop, fereastra si buton inchidere -->
+    <div data-modal class="is-hidden">
+      <div data-modal-content>
+        <h2>FEREASTRA MODALA</h2>
+        <button data-modal-close type="button">
+          <a href="">
+            <svg class="buton-modal__X">
+              <use href="./images/symbol-defs.svg#icon-Vector-1-1" />
+            </svg>
+          </a>
+        </button>
+      </div>
+    </div>
+
+    <script src="./modal.js"></script>
   </body>
 </html>
