@@ -105,8 +105,8 @@ color: var(--black);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* .header__navigation a:hover::after,
-.header__navigation a:focus::after, */
+.header__navigation a:hover::after,
+.header__navigation a:focus::after,
 .header__navigation a:active::after {
     width: 100%;
 }
