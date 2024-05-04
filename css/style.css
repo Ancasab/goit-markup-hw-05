@@ -214,44 +214,45 @@ color: var(--black);
     height: auto;
 }
 .we-do-section_images.container {
+    display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 1170px;
     height: 294px;
-}
-
-.we-do-section__image {
-    width: 370px;
-    height: 294px; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     position: relative;
 }
+
 .imagine {
     position: absolute;
     top: 0;
-    left: 0;
     z-index: 1;
 }
 
 .we-do-section_images__bg-and-text {
     position: absolute;
-    left: 0;
-    top: 0;
+    bottom: 0;
     width: 370px;
     height: 70px;
-    background-color: var(--black-background);
+    background-color: #2F303ACC;
     font-weight: 700;
     font-size: 14px;
     color: var(--white);
     line-height: 1.2;
     letter-spacing: 0.03em;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 2;
-    
 }
-
+.one {
+    left: 0;
+}
+.two {
+    left: 400px;
+}
+.three {
+    left: 800px;
+}
 /* OUR TEAM section style */
 
 .team-section.section {
